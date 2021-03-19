@@ -4,4 +4,4 @@ BUILD_DIR=$1
 
 cd $BUILD_DIR
 
-yarn build-storybook -o './public/storybook-static'
+yarn && yarn build-storybook -o './public/storybook-static'
